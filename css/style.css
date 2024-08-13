@@ -19,7 +19,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #e7e5eb;
+    color: #e5e7eb;
     font-size: 18px;
 }
 
@@ -115,5 +115,27 @@ button:hover {
 .item-text {
     text-align: center;
     color: darkslategrey;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    padding: 100px 200px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    margin-left: 64px;
+    margin-bottom: 8px;
+}
+
+.quoter {
+    font-weight: bolder;
 }
 
