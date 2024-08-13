@@ -3,6 +3,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+body * {
+    font-family: 'Times New Roman', Times, serif
+}
+
 .header {
     background-color: #1F2937;
     padding-bottom: 16px;
@@ -139,3 +143,30 @@ button:hover {
     font-weight: bolder;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 48px 96px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.call-left-title {
+    color: white;
+    font-size: 36px;
+}
+
+.call-button {
+    border-color: white;
+    border-style: solid;
+    font-size: 16px;
+}
